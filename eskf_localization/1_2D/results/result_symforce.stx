@@ -1,0 +1,430 @@
+-- step 0 ---------------------------------------------
+
+current X is
+ trans is [0.151 0.08 ]
+  x is 0.151
+  y is 0.080
+ angle is 0.110
+
+e (calc by symforce): [ 1.829 -0.283]
+H (calc by symforce):
+ [[-0.994 -0.11  -0.283]
+ [ 0.11  -0.994 -1.829]]
+(2, 3)
+
+current X is
+ trans is [0.109 0.03 ]
+  x is 0.109
+  y is 0.030
+ angle is 0.030
+
+e (calc by symforce): [1.919 0.914]
+H (calc by symforce):
+ [[-1.    -0.03   0.914]
+ [ 0.03  -1.    -1.919]]
+(2, 3)
+
+current X is
+ trans is [ 0.107 -0.024]
+  x is 0.107
+  y is -0.024
+ angle is 0.061
+
+e (calc by symforce): [ 1.83  -1.088]
+H (calc by symforce):
+ [[-0.998 -0.061 -1.088]
+ [ 0.061 -0.998 -1.83 ]]
+(2, 3)
+ 
+X simulated :  [0.1  0.   0.05]
+X estimated :  [ 0.098 -0.004  0.048]
+X unfilterd :  [0.155 0.072 0.11 ]
+-------------------------------------------------------
+
+-- step 1 ---------------------------------------------
+
+current X is
+ trans is [0.228 0.09 ]
+  x is 0.228
+  y is 0.090
+ angle is 0.151
+
+e (calc by symforce): [ 1.739 -0.355]
+H (calc by symforce):
+ [[-0.989 -0.15  -0.355]
+ [ 0.15  -0.989 -1.739]]
+(2, 3)
+
+current X is
+ trans is [0.21  0.042]
+  x is 0.210
+  y is 0.042
+ angle is 0.074
+
+e (calc by symforce): [1.857 0.822]
+H (calc by symforce):
+ [[-0.997 -0.074  0.822]
+ [ 0.074 -0.997 -1.857]]
+(2, 3)
+
+current X is
+ trans is [ 0.21  -0.008]
+  x is 0.210
+  y is -0.008
+ angle is 0.106
+
+e (calc by symforce): [ 1.674 -1.176]
+H (calc by symforce):
+ [[-0.994 -0.106 -1.176]
+ [ 0.106 -0.994 -1.674]]
+(2, 3)
+ 
+X simulated :  [ 0.2 -0.   0.1]
+X estimated :  [ 0.204 -0.005  0.098]
+X unfilterd :  [0.293 0.15  0.213]
+-------------------------------------------------------
+
+-- step 2 ---------------------------------------------
+
+current X is
+ trans is [0.364 0.121]
+  x is 0.364
+  y is 0.121
+ angle is 0.246
+
+e (calc by symforce): [ 1.557 -0.516]
+H (calc by symforce):
+ [[-0.97  -0.244 -0.516]
+ [ 0.244 -0.97  -1.557]]
+(2, 3)
+
+current X is
+ trans is [0.328 0.037]
+  x is 0.328
+  y is 0.037
+ angle is 0.129
+
+e (calc by symforce): [1.782 0.74 ]
+H (calc by symforce):
+ [[-0.992 -0.129  0.74 ]
+ [ 0.129 -0.992 -1.782]]
+(2, 3)
+
+current X is
+ trans is [ 0.332 -0.036]
+  x is 0.332
+  y is -0.036
+ angle is 0.179
+
+e (calc by symforce): [ 1.47  -1.246]
+H (calc by symforce):
+ [[-0.984 -0.178 -1.246]
+ [ 0.178 -0.984 -1.47 ]]
+(2, 3)
+ 
+X simulated :  [ 0.3  -0.    0.15]
+X estimated :  [ 0.302 -0.006  0.146]
+X unfilterd :  [0.472 0.235 0.361]
+-------------------------------------------------------
+
+-- step 3 ---------------------------------------------
+
+current X is
+ trans is [0.483 0.104]
+  x is 0.483
+  y is 0.104
+ angle is 0.238
+
+e (calc by symforce): [ 1.45  -0.459]
+H (calc by symforce):
+ [[-0.972 -0.235 -0.459]
+ [ 0.235 -0.972 -1.45 ]]
+(2, 3)
+
+current X is
+ trans is [0.413 0.049]
+  x is 0.413
+  y is 0.049
+ angle is 0.177
+
+e (calc by symforce): [1.729 0.658]
+H (calc by symforce):
+ [[-0.984 -0.176  0.658]
+ [ 0.176 -0.984 -1.729]]
+(2, 3)
+
+current X is
+ trans is [0.418 0.001]
+  x is 0.418
+  y is 0.001
+ angle is 0.215
+
+e (calc by symforce): [ 1.332 -1.315]
+H (calc by symforce):
+ [[-0.977 -0.213 -1.315]
+ [ 0.213 -0.977 -1.332]]
+(2, 3)
+ 
+X simulated :  [ 0.4 -0.   0.2]
+X estimated :  [ 0.403 -0.012  0.198]
+X unfilterd :  [0.667 0.3   0.452]
+-------------------------------------------------------
+
+-- step 4 ---------------------------------------------
+
+current X is
+ trans is [0.54 0.13]
+  x is 0.540
+  y is 0.130
+ angle is 0.342
+
+e (calc by symforce): [ 1.331 -0.612]
+H (calc by symforce):
+ [[-0.942 -0.336 -0.612]
+ [ 0.336 -0.942 -1.331]]
+(2, 3)
+
+current X is
+ trans is [0.525 0.053]
+  x is 0.525
+  y is 0.053
+ angle is 0.244
+
+e (calc by symforce): [1.66  0.562]
+H (calc by symforce):
+ [[-0.97  -0.242  0.562]
+ [ 0.242 -0.97  -1.66 ]]
+(2, 3)
+
+current X is
+ trans is [0.531 0.009]
+  x is 0.531
+  y is 0.009
+ angle is 0.278
+
+e (calc by symforce): [ 1.135 -1.373]
+H (calc by symforce):
+ [[-0.962 -0.274 -1.373]
+ [ 0.274 -0.962 -1.135]]
+(2, 3)
+ 
+X simulated :  [0.5  0.   0.25]
+X estimated :  [ 0.504 -0.013  0.247]
+X unfilterd :  [0.837 0.351 0.597]
+-------------------------------------------------------
+
+-- step 5 ---------------------------------------------
+
+current X is
+ trans is [0.655 0.115]
+  x is 0.655
+  y is 0.115
+ angle is 0.310
+
+e (calc by symforce): [ 1.246 -0.52 ]
+H (calc by symforce):
+ [[-0.952 -0.305 -0.52 ]
+ [ 0.305 -0.952 -1.246]]
+(2, 3)
+
+current X is
+ trans is [0.598 0.084]
+  x is 0.598
+  y is 0.084
+ angle is 0.287
+
+e (calc by symforce): [1.603 0.482]
+H (calc by symforce):
+ [[-0.959 -0.283  0.482]
+ [ 0.283 -0.959 -1.603]]
+(2, 3)
+
+current X is
+ trans is [0.602 0.062]
+  x is 0.602
+  y is 0.062
+ angle is 0.309
+
+e (calc by symforce): [ 1.008 -1.438]
+H (calc by symforce):
+ [[-0.953 -0.304 -1.438]
+ [ 0.304 -0.953 -1.008]]
+(2, 3)
+ 
+X simulated :  [ 0.6 -0.   0.3]
+X estimated :  [ 0.595 -0.005  0.295]
+X unfilterd :  [1.007 0.396 0.66 ]
+-------------------------------------------------------
+
+-- step 6 ---------------------------------------------
+
+current X is
+ trans is [0.695 0.139]
+  x is 0.695
+  y is 0.139
+ angle is 0.410
+
+e (calc by symforce): [ 1.142 -0.648]
+H (calc by symforce):
+ [[-0.917 -0.399 -0.648]
+ [ 0.399 -0.917 -1.142]]
+(2, 3)
+
+current X is
+ trans is [0.702 0.101]
+  x is 0.702
+  y is 0.101
+ angle is 0.361
+
+e (calc by symforce): [1.532 0.382]
+H (calc by symforce):
+ [[-0.936 -0.353  0.382]
+ [ 0.353 -0.936 -1.532]]
+(2, 3)
+
+current X is
+ trans is [0.704 0.093]
+  x is 0.704
+  y is 0.093
+ angle is 0.369
+
+e (calc by symforce): [ 0.815 -1.487]
+H (calc by symforce):
+ [[-0.933 -0.36  -1.487]
+ [ 0.36  -0.933 -0.815]]
+(2, 3)
+ 
+X simulated :  [ 0.7  -0.    0.35]
+X estimated :  [ 0.699 -0.011  0.35 ]
+X unfilterd :  [1.147 0.395 0.775]
+-------------------------------------------------------
+
+-- step 7 ---------------------------------------------
+
+current X is
+ trans is [0.784 0.172]
+  x is 0.784
+  y is 0.172
+ angle is 0.437
+
+e (calc by symforce): [ 1.029 -0.671]
+H (calc by symforce):
+ [[-0.906 -0.423 -0.671]
+ [ 0.423 -0.906 -1.029]]
+(2, 3)
+
+current X is
+ trans is [0.784 0.145]
+  x is 0.784
+  y is 0.145
+ angle is 0.405
+
+e (calc by symforce): [1.455 0.307]
+H (calc by symforce):
+ [[-0.919 -0.394  0.307]
+ [ 0.394 -0.919 -1.455]]
+(2, 3)
+
+current X is
+ trans is [0.785 0.137]
+  x is 0.785
+  y is 0.137
+ angle is 0.413
+
+e (calc by symforce): [ 0.657 -1.529]
+H (calc by symforce):
+ [[-0.916 -0.401 -1.529]
+ [ 0.401 -0.916 -0.657]]
+(2, 3)
+ 
+X simulated :  [ 0.8 -0.   0.4]
+X estimated :  [ 0.792 -0.007  0.399]
+X unfilterd :  [1.271 0.41  0.862]
+-------------------------------------------------------
+
+-- step 8 ---------------------------------------------
+
+current X is
+ trans is [0.923 0.291]
+  x is 0.923
+  y is 0.291
+ angle is 0.523
+
+e (calc by symforce): [ 0.788 -0.79 ]
+H (calc by symforce):
+ [[-0.866 -0.499 -0.79 ]
+ [ 0.499 -0.866 -0.788]]
+(2, 3)
+
+current X is
+ trans is [0.926 0.205]
+  x is 0.926
+  y is 0.205
+ angle is 0.432
+
+e (calc by symforce): [1.308 0.273]
+H (calc by symforce):
+ [[-0.908 -0.418  0.273]
+ [ 0.418 -0.908 -1.308]]
+(2, 3)
+
+current X is
+ trans is [0.936 0.141]
+  x is 0.936
+  y is 0.141
+ angle is 0.494
+
+e (calc by symforce): [ 0.395 -1.509]
+H (calc by symforce):
+ [[-0.88  -0.474 -1.509]
+ [ 0.474 -0.88  -0.395]]
+(2, 3)
+ 
+X simulated :  [ 0.9  -0.    0.45]
+X estimated :  [ 0.91  -0.011  0.437]
+X unfilterd :  [1.467 0.477 0.986]
+-------------------------------------------------------
+
+-- step 9 ---------------------------------------------
+
+current X is
+ trans is [1.005 0.258]
+  x is 1.005
+  y is 0.258
+ angle is 0.556
+
+e (calc by symforce): [ 0.709 -0.744]
+H (calc by symforce):
+ [[-0.849 -0.528 -0.744]
+ [ 0.528 -0.849 -0.709]]
+(2, 3)
+
+current X is
+ trans is [0.979 0.204]
+  x is 0.979
+  y is 0.204
+ angle is 0.512
+
+e (calc by symforce): [1.28  0.194]
+H (calc by symforce):
+ [[-0.872 -0.49   0.194]
+ [ 0.49  -0.872 -1.28 ]]
+(2, 3)
+
+current X is
+ trans is [0.977 0.2  ]
+  x is 0.977
+  y is 0.200
+ angle is 0.527
+
+e (calc by symforce): [ 0.281 -1.552]
+H (calc by symforce):
+ [[-0.865 -0.503 -1.552]
+ [ 0.503 -0.865 -0.281]]
+(2, 3)
+ 
+X simulated :  [1.  0.  0.5]
+X estimated :  [ 0.988 -0.026  0.502]
+X unfilterd :  [1.637 0.469 1.105]
+-------------------------------------------------------
+

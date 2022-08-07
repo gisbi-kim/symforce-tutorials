@@ -1,0 +1,430 @@
+-- step 0 ---------------------------------------------
+
+current X is
+ trans is [0.151 0.08 ]
+  x is 0.151
+  y is 0.080
+ angle is 0.110
+
+e (calc by manif): [ 1.829 -0.283]
+H (calc by manif):
+ [[-1.     0.    -0.283]
+ [ 0.    -1.    -1.829]]
+(2, 3)
+
+current X is
+ trans is [0.103 0.035]
+  x is 0.103
+  y is 0.035
+ angle is 0.030
+
+e (calc by manif): [1.924 0.909]
+H (calc by manif):
+ [[-1.     0.     0.909]
+ [ 0.    -1.    -1.924]]
+(2, 3)
+
+current X is
+ trans is [ 0.098 -0.008]
+  x is 0.098
+  y is -0.008
+ angle is 0.053
+
+e (calc by manif): [ 1.847 -1.092]
+H (calc by manif):
+ [[-1.    -0.    -1.092]
+ [-0.    -1.    -1.847]]
+(2, 3)
+ 
+X simulated :  [0.1  0.   0.05]
+X estimated :  [ 0.095 -0.004  0.049]
+X unfilterd :  [0.155 0.072 0.11 ]
+-------------------------------------------------------
+
+-- step 1 ---------------------------------------------
+
+current X is
+ trans is [0.225 0.091]
+  x is 0.225
+  y is 0.091
+ angle is 0.152
+
+e (calc by manif): [ 1.741 -0.358]
+H (calc by manif):
+ [[-1.    -0.    -0.358]
+ [-0.    -1.    -1.741]]
+(2, 3)
+
+current X is
+ trans is [0.203 0.045]
+  x is 0.203
+  y is 0.045
+ angle is 0.075
+
+e (calc by manif): [1.863 0.818]
+H (calc by manif):
+ [[-1.     0.     0.818]
+ [ 0.    -1.    -1.863]]
+(2, 3)
+
+current X is
+ trans is [0.197 0.009]
+  x is 0.197
+  y is 0.009
+ angle is 0.098
+
+e (calc by manif): [ 1.696 -1.18 ]
+H (calc by manif):
+ [[-1.    -0.    -1.18 ]
+ [-0.    -1.    -1.696]]
+(2, 3)
+ 
+X simulated :  [ 0.2 -0.   0.1]
+X estimated :  [ 0.199 -0.006  0.1  ]
+X unfilterd :  [0.293 0.15  0.213]
+-------------------------------------------------------
+
+-- step 2 ---------------------------------------------
+
+current X is
+ trans is [0.359 0.12 ]
+  x is 0.359
+  y is 0.120
+ angle is 0.248
+
+e (calc by manif): [ 1.561 -0.519]
+H (calc by manif):
+ [[-1.    -0.    -0.519]
+ [-0.    -1.    -1.561]]
+(2, 3)
+
+current X is
+ trans is [0.309 0.047]
+  x is 0.309
+  y is 0.047
+ angle is 0.130
+
+e (calc by manif): [1.801 0.726]
+H (calc by manif):
+ [[-1.     0.     0.726]
+ [ 0.    -1.    -1.801]]
+(2, 3)
+
+current X is
+ trans is [0.3   0.005]
+  x is 0.300
+  y is 0.005
+ angle is 0.158
+
+e (calc by manif): [ 1.521 -1.259]
+H (calc by manif):
+ [[-1.     0.    -1.259]
+ [ 0.    -1.    -1.521]]
+(2, 3)
+ 
+X simulated :  [ 0.3  -0.    0.15]
+X estimated :  [ 0.296 -0.006  0.151]
+X unfilterd :  [0.472 0.235 0.361]
+-------------------------------------------------------
+
+-- step 3 ---------------------------------------------
+
+current X is
+ trans is [0.476 0.105]
+  x is 0.476
+  y is 0.105
+ angle is 0.243
+
+e (calc by manif): [ 1.454 -0.469]
+H (calc by manif):
+ [[-1.    -0.    -0.469]
+ [ 0.    -1.    -1.454]]
+(2, 3)
+
+current X is
+ trans is [0.403 0.064]
+  x is 0.403
+  y is 0.064
+ angle is 0.178
+
+e (calc by manif): [1.738 0.638]
+H (calc by manif):
+ [[-1.     0.     0.638]
+ [-0.    -1.    -1.738]]
+(2, 3)
+
+current X is
+ trans is [0.397 0.028]
+  x is 0.397
+  y is 0.028
+ angle is 0.203
+
+e (calc by manif): [ 1.363 -1.33 ]
+H (calc by manif):
+ [[-1.     0.    -1.33 ]
+ [-0.    -1.    -1.363]]
+(2, 3)
+ 
+X simulated :  [ 0.4 -0.   0.2]
+X estimated :  [ 0.399 -0.01   0.202]
+X unfilterd :  [0.667 0.3   0.452]
+-------------------------------------------------------
+
+-- step 4 ---------------------------------------------
+
+current X is
+ trans is [0.535 0.133]
+  x is 0.535
+  y is 0.133
+ angle is 0.346
+
+e (calc by manif): [ 1.333 -0.622]
+H (calc by manif):
+ [[-1.    -0.    -0.622]
+ [ 0.    -1.    -1.333]]
+(2, 3)
+
+current X is
+ trans is [0.501 0.063]
+  x is 0.501
+  y is 0.063
+ angle is 0.244
+
+e (calc by manif): [1.681 0.546]
+H (calc by manif):
+ [[-1.     0.     0.546]
+ [-0.    -1.    -1.681]]
+(2, 3)
+
+current X is
+ trans is [0.498 0.047]
+  x is 0.498
+  y is 0.047
+ angle is 0.255
+
+e (calc by manif): [ 1.189 -1.392]
+H (calc by manif):
+ [[-1.     0.    -1.392]
+ [-0.    -1.    -1.189]]
+(2, 3)
+ 
+X simulated :  [0.5  0.   0.25]
+X estimated :  [ 0.5   -0.011  0.252]
+X unfilterd :  [0.837 0.351 0.597]
+-------------------------------------------------------
+
+-- step 5 ---------------------------------------------
+
+current X is
+ trans is [0.65  0.119]
+  x is 0.650
+  y is 0.119
+ angle is 0.315
+
+e (calc by manif): [ 1.247 -0.531]
+H (calc by manif):
+ [[-1.    -0.    -0.531]
+ [ 0.    -1.    -1.247]]
+(2, 3)
+
+current X is
+ trans is [0.592 0.102]
+  x is 0.592
+  y is 0.102
+ angle is 0.288
+
+e (calc by manif): [1.605 0.462]
+H (calc by manif):
+ [[-1.     0.     0.462]
+ [-0.    -1.    -1.605]]
+(2, 3)
+
+current X is
+ trans is [0.589 0.082]
+  x is 0.589
+  y is 0.082
+ angle is 0.302
+
+e (calc by manif): [ 1.026 -1.452]
+H (calc by manif):
+ [[-1.     0.    -1.452]
+ [-0.    -1.    -1.026]]
+(2, 3)
+ 
+X simulated :  [ 0.6 -0.   0.3]
+X estimated :  [0.595 0.    0.297]
+X unfilterd :  [1.007 0.396 0.66 ]
+-------------------------------------------------------
+
+-- step 6 ---------------------------------------------
+
+current X is
+ trans is [0.694 0.145]
+  x is 0.694
+  y is 0.145
+ angle is 0.413
+
+e (calc by manif): [ 1.138 -0.657]
+H (calc by manif):
+ [[-1.    -0.    -0.657]
+ [ 0.    -1.    -1.138]]
+(2, 3)
+
+current X is
+ trans is [0.687 0.104]
+  x is 0.687
+  y is 0.104
+ angle is 0.359
+
+e (calc by manif): [1.544 0.377]
+H (calc by manif):
+ [[-1.    -0.     0.377]
+ [-0.    -1.    -1.544]]
+(2, 3)
+
+current X is
+ trans is [0.688 0.111]
+  x is 0.688
+  y is 0.111
+ angle is 0.355
+
+e (calc by manif): [ 0.844 -1.498]
+H (calc by manif):
+ [[-1.    -0.    -1.498]
+ [-0.    -1.    -0.844]]
+(2, 3)
+ 
+X simulated :  [ 0.7  -0.    0.35]
+X estimated :  [ 0.699 -0.008  0.352]
+X unfilterd :  [1.147 0.395 0.775]
+-------------------------------------------------------
+
+-- step 7 ---------------------------------------------
+
+current X is
+ trans is [0.784 0.176]
+  x is 0.784
+  y is 0.176
+ angle is 0.439
+
+e (calc by manif): [ 1.026 -0.676]
+H (calc by manif):
+ [[-1.     0.    -0.676]
+ [ 0.    -1.    -1.026]]
+(2, 3)
+
+current X is
+ trans is [0.772 0.149]
+  x is 0.772
+  y is 0.149
+ angle is 0.404
+
+e (calc by manif): [1.464 0.3  ]
+H (calc by manif):
+ [[-1.    -0.     0.3  ]
+ [-0.    -1.    -1.464]]
+(2, 3)
+
+current X is
+ trans is [0.773 0.152]
+  x is 0.773
+  y is 0.152
+ angle is 0.402
+
+e (calc by manif): [ 0.679 -1.54 ]
+H (calc by manif):
+ [[-1.     0.    -1.54 ]
+ [-0.    -1.    -0.679]]
+(2, 3)
+ 
+X simulated :  [ 0.8 -0.   0.4]
+X estimated :  [ 0.792 -0.004  0.4  ]
+X unfilterd :  [1.271 0.41  0.862]
+-------------------------------------------------------
+
+-- step 8 ---------------------------------------------
+
+current X is
+ trans is [0.922 0.294]
+  x is 0.922
+  y is 0.294
+ angle is 0.524
+
+e (calc by manif): [ 0.786 -0.794]
+H (calc by manif):
+ [[-1.    -0.    -0.794]
+ [ 0.    -1.    -0.786]]
+(2, 3)
+
+current X is
+ trans is [0.884 0.216]
+  x is 0.884
+  y is 0.216
+ angle is 0.430
+
+e (calc by manif): [1.342 0.247]
+H (calc by manif):
+ [[-1.    -0.     0.247]
+ [-0.    -1.    -1.342]]
+(2, 3)
+
+current X is
+ trans is [0.874 0.191]
+  x is 0.874
+  y is 0.191
+ angle is 0.454
+
+e (calc by manif): [ 0.489 -1.564]
+H (calc by manif):
+ [[-1.     0.    -1.564]
+ [-0.    -1.    -0.489]]
+(2, 3)
+ 
+X simulated :  [ 0.9  -0.    0.45]
+X estimated :  [ 0.901 -0.004  0.45 ]
+X unfilterd :  [1.467 0.477 0.986]
+-------------------------------------------------------
+
+-- step 9 ---------------------------------------------
+
+current X is
+ trans is [0.992 0.27 ]
+  x is 0.992
+  y is 0.270
+ angle is 0.569
+
+e (calc by manif): [ 0.703 -0.771]
+H (calc by manif):
+ [[-1.    -0.    -0.771]
+ [-0.    -1.    -0.703]]
+(2, 3)
+
+current X is
+ trans is [0.955 0.224]
+  x is 0.955
+  y is 0.224
+ angle is 0.514
+
+e (calc by manif): [1.291 0.162]
+H (calc by manif):
+ [[-1.     0.     0.162]
+ [-0.    -1.    -1.291]]
+(2, 3)
+
+current X is
+ trans is [0.958 0.234]
+  x is 0.958
+  y is 0.234
+ angle is 0.505
+
+e (calc by manif): [ 0.314 -1.584]
+H (calc by manif):
+ [[-1.    -0.    -1.584]
+ [-0.    -1.    -0.314]]
+(2, 3)
+ 
+X simulated :  [1.  0.  0.5]
+X estimated :  [ 0.996 -0.01   0.502]
+X unfilterd :  [1.637 0.469 1.105]
+-------------------------------------------------------
+
