@@ -1,0 +1,33 @@
+scale term 은 다른 rotation 등에 영향을 주어 highly nonlinear 해지므로 
+initial value 가 더욱 중요하다 
+따라서 gen_noisy_but_reliable_inital 에서 처음 이니셜을 줄 때 
+너무 0.3 배, 와 같은, true 에서 멀리 떨어진 값을 주면 
+아무리 robust loss 를 사용하더라도 수렴이 어렵다. 
+0.7 정도는 충분히 실험적으로 극복하는 듯 하다 (이 토이 데이터셋에서) 
+하지만 이런 세부적인 initial guess 수준과 robust loss parameter tuning 은 
+variable space 의 metric scale, domain knowledge 등을 고려하여 실험적으로 결정되어야 할 것이다. 
+
+아무튼 이니셜을 
+def gen_noisy_but_reliable_inital():
+    rot_init = R.from_euler('xyz', true_rot_diff_rpy, degrees=True).as_rotvec() + 0.05*np.random.rand(3)
+    trans_init = true_trans_diff + np.random.rand(3)*(0.1*scale_up)
+#     scale_init = np.random.rand(1) * true_scale_diff
+    scale_init = 0.7* true_scale_diff
+    
+    eps = 0.0001 # +eps means: because zero initial should be avoided (see the symbolic equation of Je_rot!)
+    initial_state_vector = np.hstack((rot_init, trans_init, scale_init)) + eps 
+    return initial_state_vector
+
+정도를 사용하면, 
+
+outlier_ratio 를 무려 0.5
+로 세팅하더라도 (50%)
+
+로버스트 로스 를 사용하면 
+robustified_error = sf.V1(noise_model.error(error_V3)) # robust loss 
+아웃라이어가 절반이더라도 잘 수렴해나가는 것을 볼 수 있다. 
+
+반면에 안 로버스트 로스 를 사용하면 
+즉, #     robustified_error = error_V3.compute_AtA() #non robust loss  
+를 uncomment 하면 
+앞서 로버스트로스 사용예와 달리 해가 발산함을 알 수 있다. 

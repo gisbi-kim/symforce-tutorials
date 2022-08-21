@@ -1,0 +1,2 @@
+the bug should be fixed 
+- the next step's initial would be identity, because in this example, the source cloud explicitly adjusted
