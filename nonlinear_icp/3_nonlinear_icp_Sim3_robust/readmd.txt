@@ -28,6 +28,8 @@ robustified_error = sf.V1(noise_model.error(error_V3)) # robust loss
 아웃라이어가 절반이더라도 잘 수렴해나가는 것을 볼 수 있다. 
 
 반면에 안 로버스트 로스 를 사용하면 
-즉, #     robustified_error = error_V3.compute_AtA() #non robust loss  
-를 uncomment 하면 
 앞서 로버스트로스 사용예와 달리 해가 발산함을 알 수 있다. 
+
+그리고 empirical 한 error scaling 을 적용해야 해가 오실레이션하는 것을 막을 수 있다. 
+그래서 scale term (e[-1]) 의 에러 스케일을 translation 대비 0.1-0.3 정도로 하면 안정적으로 수렴하는 것을 볼 수 있다. 
+
